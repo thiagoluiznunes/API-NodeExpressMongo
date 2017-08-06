@@ -7,5 +7,6 @@ services:
   - mongodb
 
 before_script:
+  - cd myFolder
   - npm install
-  - npm run start
+  - npm start
