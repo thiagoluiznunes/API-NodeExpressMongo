@@ -25,7 +25,7 @@ Toolkit: MongoDB | Express.js | Node.js
   
   ## API Routes ##
 
-### Reports ###
+### Items ###
 |   Action                                  | Required          | Method    | URL
 | ------------------------------------------|-------------------|-----------|-----------------------------------------------------
 |   List all items                        |                   |  `GET`   | /api/item
