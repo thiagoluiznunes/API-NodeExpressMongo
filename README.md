@@ -1,6 +1,9 @@
 # API-NodeExpressMongo
 
 [![Build Status](https://travis-ci.org/ThiagoLuizNunes/API-NodeExpressMongo.svg?branch=master)](https://travis-ci.org/ThiagoLuizNunes/API-NodeExpressMongo)
+[![Code Climate](https://codeclimate.com/github/ThiagoLuizNunes/API-NodeExpressMongo/badges/gpa.svg)](https://codeclimate.com/github/ThiagoLuizNunes/API-NodeExpressMongo)
+[![Test Coverage](https://codeclimate.com/github/ThiagoLuizNunes/API-NodeExpressMongo/badges/coverage.svg)](https://codeclimate.com/repos/59872c9e6fac1f0266000040/settings/test_reporter)
+[![Issue Count](https://codeclimate.com/github/ThiagoLuizNunes/API-NodeExpressMongo/badges/issue_count.svg)](https://codeclimate.com/github/ThiagoLuizNunes/API-NodeExpressMongo/issues)
 
 #### This is the first article I will be bringing for your guys related to the development of applications based on Node.js, Express and MongoDB. The article consists of building a REST API application, its description and using good programming practices.
 ---
