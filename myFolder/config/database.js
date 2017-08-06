@@ -1,4 +1,4 @@
 const mongoose = require('mongoose')
-module.exports = mongoose.connect('mongodb://user:password@localhost:2727/myDataBase',{
+module.exports = mongoose.connect('mongodb://localhost/myDataBase',{
   useMongoClient: true
 })
