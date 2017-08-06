@@ -9,4 +9,3 @@ services:
 before_script:
   - cd myFolder
   - npm install
-  - npm start
