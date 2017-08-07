@@ -21,14 +21,14 @@ Toolkit: MongoDB | Express.js | Node.js
 **Obs.: The following instructions were tested on Ubuntu distribution.**
 
 1. After 'git clone' command, run the following commands to install dependencies:
-  - user@user:~/path_to_cloned_folder$ **npm install**
+  - user@user:~/path_to_cloned_folder/myFolder$ **npm install**
   - **Manually install the dependencies that may have not been installed by the above command.** :white_check_mark:
 
 2. Start MongoDB
   - user@user:~/shell$ **mongod**
 
 3. Start application
-  - use@user:~/path_to_cloned_folder **npm start**
+  - use@user:~/path_to_cloned_folder/myFolder **npm start**
   - Access the browser http://localhost:4000/api/item
   
   ## API Routes ##
