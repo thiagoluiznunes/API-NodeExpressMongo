@@ -42,9 +42,13 @@ Toolkit: MongoDB | Express.js | Node.js
 |   Update the item with ID               |                   |  `PUT`   | /api/item/:id
 |   Remove item with ID                   |                   |  `DELETE`   | /api/item/:id
 
-## Contributors
+## Authors
 
 * Thiago Luiz Pereira Nunes ([ThiagoLuizNunes](https://github.com/ThiagoLuizNunes)) thiago.luiz@lavid.ufpb.br
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 >Created By **[ThiagoLuizNunes](https://www.linkedin.com/in/thiago-luiz-507483112/)** 2017.
 
