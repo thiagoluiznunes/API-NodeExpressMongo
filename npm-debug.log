@@ -1,15 +1,13 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/home/thiago/.nvm/versions/node/v6.9.5/bin/node',
-1 verbose cli   '/home/thiago/.nvm/versions/node/v6.9.5/bin/npm',
-1 verbose cli   'start' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
 2 info using npm@3.10.10
-3 info using node@v6.9.5
+3 info using node@v6.12.3
 4 verbose stack Error: ENOENT: no such file or directory, open '/home/thiago/Git/API-NodeExpressMongo/package.json'
 4 verbose stack     at Error (native)
 5 verbose cwd /home/thiago/Git/API-NodeExpressMongo
-6 error Linux 4.4.0-89-generic
-7 error argv "/home/thiago/.nvm/versions/node/v6.9.5/bin/node" "/home/thiago/.nvm/versions/node/v6.9.5/bin/npm" "start"
-8 error node v6.9.5
+6 error Linux 4.13.0-26-generic
+7 error argv "/usr/bin/node" "/usr/bin/npm" "start"
+8 error node v6.12.3
 9 error npm  v3.10.10
 10 error path /home/thiago/Git/API-NodeExpressMongo/package.json
 11 error code ENOENT
