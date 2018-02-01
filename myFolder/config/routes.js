@@ -12,5 +12,8 @@ module.exports = function(server) {
   itemService.register(router, '/item');
 
   //Search's routes
-  require('../api/itens/itemRoutes')(router, itemQuerys);
+  router.get('/search-name/:name', itemQuerys.searchByName);
+
 }
+  
+  // require('../api/itens/itemRoutes')(router, itemQuerys);

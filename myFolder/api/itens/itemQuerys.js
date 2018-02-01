@@ -13,3 +13,4 @@ const searchByName = (req, res, next) => {
 };
 
 module.exports = { searchByName }
+
