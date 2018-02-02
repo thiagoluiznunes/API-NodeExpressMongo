@@ -38,6 +38,7 @@ Toolkit: MongoDB | Express.js | Node.js
 | ------------------------------------------|-------------------|-----------|-----------------------------------------------------
 |   List all items                        |                   |  `GET`   | /api/item
 |   Search for a item with a specific ID  |                   |  `GET`    | /api/item/:id
+|   Search for a item with a specifit NAME |                  |  `GET`    | /api/item/:name
 |   Create a new item                     |                   |  `POST`   | /api/item
 |   Update the item with ID               |                   |  `PUT`   | /api/item/:id
 |   Remove item with ID                   |                   |  `DELETE`   | /api/item/:id
