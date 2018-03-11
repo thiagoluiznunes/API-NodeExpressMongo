@@ -1,32 +1,26 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+1 verbose cli [ '/home/thiago/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/home/thiago/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
 2 info using npm@3.10.10
-3 info using node@v6.12.3
-4 verbose stack Error: Failed to parse json
-4 verbose stack Trailing comma in object at 8:3
-4 verbose stack   },
-4 verbose stack   ^
-4 verbose stack     at parseError (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:390:11)
-4 verbose stack     at parseJson (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:79:23)
-4 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
-4 verbose stack     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
-4 verbose stack     at tryToString (fs.js:457:3)
-4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+3 info using node@v6.9.5
+4 verbose stack Error: missing script: dev
+4 verbose stack     at run (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (/home/thiago/.nvm/versions/node/v6.9.5/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:365:13)
 5 verbose cwd /home/thiago/Git/API-NodeExpressMongo/myFolder
-6 error Linux 4.13.0-32-generic
-7 error argv "/usr/bin/node" "/usr/bin/npm" "start"
-8 error node v6.12.3
+6 error Linux 4.4.0-116-generic
+7 error argv "/home/thiago/.nvm/versions/node/v6.9.5/bin/node" "/home/thiago/.nvm/versions/node/v6.9.5/bin/npm" "run" "dev"
+8 error node v6.9.5
 9 error npm  v3.10.10
-10 error file /home/thiago/Git/API-NodeExpressMongo/myFolder/package.json
-11 error code EJSONPARSE
-12 error Failed to parse json
-12 error Trailing comma in object at 8:3
-12 error   },
-12 error   ^
-13 error File: /home/thiago/Git/API-NodeExpressMongo/myFolder/package.json
-14 error Failed to parse package.json data.
-14 error package.json must be actual JSON, not just JavaScript.
-14 error
-14 error This is not a bug in npm.
-14 error Tell the package author to fix their package.json file. JSON.parse
-15 verbose exit [ 1, true ]
+10 error missing script: dev
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
