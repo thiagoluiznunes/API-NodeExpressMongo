@@ -14,6 +14,9 @@ module.exports = function(server) {
   //Search's routes
   router.get('/search-name/:name', itemQuerys.searchByName);
 
+  const bagService = require('../api/bag/bagService');
+  bagService.register(router, '/bag');
+
 }
-  
+
   // require('../api/itens/itemRoutes')(router, itemQuerys);
