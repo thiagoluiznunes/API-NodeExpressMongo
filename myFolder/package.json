@@ -19,7 +19,7 @@
   "dependencies": {
     "body-parser": "1.17.2",
     "express": "4.15.3",
-    "mongoose": "5.0.9",
+    "mongoose": "5.7.7",
     "node-restful": "0.2.6"
   },
   "devDependencies": {
