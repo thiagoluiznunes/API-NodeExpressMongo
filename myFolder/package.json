@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ThiagoLuizNunes/API-NodeExpressMongo#readme",
   "dependencies": {
     "body-parser": "1.17.2",
-    "express": "4.15.3",
+    "express": "4.19.2",
     "mongoose": "5.7.7",
     "node-restful": "0.2.6"
   },
